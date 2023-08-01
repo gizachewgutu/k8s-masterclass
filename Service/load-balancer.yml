@@ -50,6 +50,9 @@ spec:
   - nodePort: 31000
     port: 80
     targetPort: 80
+=================================
+open port to allow traffic
+gcloud compute firewall-rules create fw-rule-gke-np --allow tcp:31000
 
 
 *******************************************************************

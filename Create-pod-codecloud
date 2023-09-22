@@ -1,0 +1,22 @@
+create pod
+ubectl get pods
+    2  kubectl create nginx
+    3  kubectl run nginx --image=nginx
+    4  kubectl get pods
+    5  kubectl get pods
+    6  kubectl delete webapp
+    7  kubectl pod delete webapp
+    8  kubectl delete pod webapp
+    9  kubectl run redis --image=redis123
+   10  kubectl run redis --image=redis123 --dry-run -o yaml
+   11  kubectl run redis --image=redis123 --dry-run=client -o yaml
+   12  kubectl run redis --image=redis123 --dry-run=client -o yaml>redis.yaml
+   13  clear
+   14  cat redis.yaml
+   15  kubectl create -f redis.yaml
+   16  cat redis.yaml
+   17  kubectl apply -f redis.yaml
+   18  vi redis.yaml
+   19  kubectl apply -f redis.yaml
+   20  clear
+   21  history
